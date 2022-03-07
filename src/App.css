@@ -1,12 +1,25 @@
-.App {
+/* .App {
   text-align: center;
+} */
+
+.wrapper {
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper h3 {
+  text-transform: capitalize;
 }
 
+.wrapper form button {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.wrapper ul button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
