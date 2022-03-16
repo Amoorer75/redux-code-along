@@ -11,8 +11,8 @@ const store = createStore(birdApp);
 
 
 ReactDOM.render(
-  <React.StrictMode store={store}>
-    <Provider>
+  <React.StrictMode >
+    <Provider store={store}>
       <App />
     </Provider>
   </React.StrictMode>,
